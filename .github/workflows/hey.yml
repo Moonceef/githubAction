@@ -3,6 +3,6 @@ on : [push]
 jobs :
    say_hello:
       runs_to : ubuntu-latest
-   steps:
-     name: print hello
-     run : echo "bonjour depuis github actions"
+      steps:
+       name: print hello
+       run : echo "bonjour depuis github actions"
